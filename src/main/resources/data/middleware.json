@@ -1,0 +1,85 @@
+[
+  {
+    "id": 0,
+    "parentId": 0,
+    "name": "MySQL",
+    "version": "latest",
+    "userName": "root",
+    "password": "123456",
+    "description": "开源关系型数据库",
+    "imgUrl": "../static/img/mysql.jpg",
+    "isSelect": false
+  },
+  {
+    "id": 1,
+    "parentId": 0,
+    "name": "Redis",
+    "version": "latest",
+    "userName": null,
+    "password": null,
+    "description": "高性能的开源键值数据库",
+    "imgUrl": "../static/img/redis.jpg",
+    "isSelect": false
+  },
+  {
+    "id": 2,
+    "parentId": 1,
+    "name": "Dockerfile",
+    "version": "latest",
+    "userName": null,
+    "password": null,
+    "description": "springboot 服务",
+    "imgUrl": "../static/img/springboot.jpg",
+    "isSelect": false,
+    "jarPath": "",
+    "expose": "8080",
+    "author": "yszhdhy"
+  },
+  {
+    "id": 3,
+    "parentId": 0,
+    "name": "Elasticsearch",
+    "version": "7.14.0",
+    "userName": null,
+    "password": null,
+    "description": "Elasticsearch 是一个分布式、RESTful 风格的搜索和数据分析引擎",
+    "imgUrl": "../static/img/Elasticsearch.jpg",
+    "isSelect": false
+  },
+  {
+    "id": 4,
+    "parentId": 0,
+    "name": "Minio",
+    "version": "latest",
+    "userName": "minio@admin",
+    "password": "minio@admin",
+    "description": "一个开源的对象存储服务器",
+    "imgUrl": "../static/img/minio.jpg",
+    "isSelect": false
+  },
+  {
+    "id": 5,
+    "parentId": 0,
+    "name": "Rocketmq",
+    "version": "4.9.4",
+    "userName": null,
+    "password": null,
+    "description": "开源分布式消息中间件",
+    "imgUrl": "../static/img/Rocketmq.jpg",
+    "isSelect": false
+  },
+
+  {
+    "id": 6,
+    "parentId": 0,
+    "name": "Nacos",
+    "version": "v2.2.0-slim",
+    "userName": "root",
+    "password": "root",
+    "description": "一个开源的分布式服务发现和配置管理平台",
+    "imgUrl": "../static/img/Nacos.jpg",
+    "isSelect": false,
+    "mysqlServiceHost":"localhost",
+    "nacosDatabase": "nacos"
+  }
+]
